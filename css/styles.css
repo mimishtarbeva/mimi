@@ -5,22 +5,41 @@
 	font-style: italic;
 	text-decoration: underline #ffcc00;
 }
+.funny-text-education {
+	color: #66AA00;
+	text-align: center;
+	font-style: oblique;
+	text-decoration: underline #66A; 
+}
+
+.funky-text-director {
+	color: brown;
+	text-align: justify;
+	font-style: italic;
+}
 
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+h4 {
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 /* Styles for the body */
 
 body {
-	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #202030;
-	background-color: #f8f8fc;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 150;
+  font-style: normal;
 }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #E0ABF2;
 }
 
 .resume-main {
@@ -28,7 +47,7 @@ body {
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #BD9CD4;
 }
 
 /* Styles for lists in the document */
