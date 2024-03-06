@@ -15,6 +15,12 @@
     <link rel="stylesheet" href="css/styles.css">
 
     <title>Maria Shtarbeva's Resumé</title>
+	  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+	  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
   </head>
   <!-- End of the head -->
 
@@ -43,7 +49,7 @@
             "w-100" makes sure the image takes the full width of the column it's in
             "rounded-circle" cuts a circle around the image
           -->
-          <img class="w-100 rounded-circle my-3" src="images/portrait.svg" alt="Portrait of Firstname Lastname" width="160">
+          <img class="w-100 rounded-circle my-3" src="images/portraits/image-4.JPG" alt="Portrait of Maria Shtarbeva" width="160">
         </div>
         <!--
           A container to wrap around your name and tagline. Full-width at small size, then columns of increasing size.
@@ -81,15 +87,15 @@
               <li class="biography-item row mb-2">
                 <!-- We're using a grid inside a grid so we can align logos and text -->
                 <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
-                  <img class="biography-logo mw-100 d-block mx-auto" src="images/employers/projector.svg" alt="Company logo" width="80">
+                  <img class="biography-logo mw-100 d-block mx-auto" src="images/employers/image-1.png" alt="Company logo" width="100">
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
-                  <h4>Director of TV show, Production House</h4>
+                  <h4 class="funky-text-director">Director of TV show, Production House</h4>
                   <h5>October  2022 - present</h5>
                   <!-- Use the list below to talk about your achievements -->
                   <ul class="biography-details list-unstyled">
-                    <li>Direct the creative vision of the show&nbsp; &nbsp;</li>
-                    <li>Create storyboard, artistic approach&nbsp; &nbsp;</li>
+                    <li>Direct the creative vision of the show </li>
+                    <li>Create storyboard, artistic approach </li>
                     <li>Part of my studies at Breda University of Applied Sciences</li>
                   </ul>
                 </div>
@@ -99,11 +105,11 @@
               <li class="biography-item row mb-2">
                 <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
                 <!-- We're using a grid inside a grid so we can align logos and text -->
-                  <img class="biography-logo mw-100 d-block mx-auto" src="images/employers/trolley.svg" alt="Company logo" width="80">
+                  <img class="biography-logo mw-100 d-block mx-auto" src="images/employers/image-2.png" alt="Company logo" width="75">
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
                   <h4>Superhost ,Happy to Host you</h4>
-                  <h5>September 2022 - present&nbsp;</h5>
+                  <h5>September 2022 - present </h5>
 				<ul class="biography-details list-unstyled">
 					<li>Prepare apartments for guests arrival</li>
 					<li>Welcome guests</li>
@@ -119,7 +125,7 @@
           <!-- We're done with jobs, let's move on to schools -->
 
           <section class="my-3 biography-section">
-            <h2>Education</h2>
+            <h2 class="funny-text-education">Education</h2>
             <ul class="biography-list list-unstyled">
 
               <!-- Top item in education. And by "top", I mean a Bachelor in Creative Business at BUas. -->
@@ -129,12 +135,12 @@
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
                   <h4>BA in Creative Business, Breda University of Applied Sciences</h4>
-                  <h5>2022 –&nbsp;now</h5>
+                  <h5>2022 – now </h5>
                   <!-- Use the list below to talk about minors, exchanges, extra-curricular activities. -->
                   <ul class="biography-details list-unstyled">
                     <li>Class Representative</li>
                     <li>TV Department</li>
-                    <li>Exchange with Northern Arizona University&nbsp; &nbsp;&nbsp;</li>
+                    <li>Exchange with Northern Arizona University </li>
                   </ul>
                 </div>
               </li>
@@ -142,7 +148,7 @@
               <!-- 2nd item in education -->
               <li class="biography-item row mb-2">
                 <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
-                  <img class="biography-logo mw-100 d-block mx-auto" src="images/schools/school.svg" alt="School logo" width="80">
+                  <img class="biography-logo mw-100 d-block mx-auto" src="images/schools/image-3.png" alt="School logo" width="80">
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
                   <h4>High School Diploma, High School for Trade and Commerece, Plovdiv</h4>
@@ -183,13 +189,13 @@
                 </a>
               </li>
               <li class="contact-item">
-                <a class="d-flex align-items-center" href="https://facebook.com/" target="_blank">
+                <a class="d-flex align-items-center" href="https://www.facebook.com/mariq.shtarbeva/" target="_blank">
                   <img class="contact-icon" src="images/icons/facebook.svg" alt="Facebook">
                   Maria Shtarbeva
                 </a>
               </li>
               <li class="contact-item">
-                <a class="d-flex align-items-center" href="https://github.com/" target="_blank">
+                <a class="d-flex align-items-center" href="https://github.com/mimishtarbeva" target="_blank">
                   <img class="contact-icon" src="images/icons/github.svg" alt="LinkedIn">
                   GitHub Profile
                 </a>
@@ -222,7 +228,7 @@
                 <div class="language-level w-50 border border-info border-2 position-relative">
                   <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
                   <div class="language-progress position-absolute bg-warning h-100 w-75"></div>
-                  <h6 class="position-absolute w-100 text-center top-0 py-1">Full proficiency</h6>
+                  <h6 class="position-absolute w-100 text-center top-0 py-1">Proficient</h6>
                 </div>
               </li>
               <li class="language-item d-flex mb-1">
