@@ -17,7 +17,21 @@
 	text-align: justify;
 	font-style: italic;
 }
-
+.funky-text-superhost {
+	color:#3C32CA;
+	text-align: justify;
+	font-style:italic;
+}
+.funky-text-buas {
+	color:#F18E20;
+	text-align: justify;
+	font-style:normal;
+}
+.funky-text-highschool {
+	color:#E40A0D;
+	text-align: justify;
+	font-style:normal;
+}
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
 
 h4 {
